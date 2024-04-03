@@ -5,6 +5,10 @@ import 'package:mausam_app/Activity/location.dart';
 
 void main() {
   runApp(MaterialApp(
-    home: Home(),
+    routes: {
+      '/': (context) => Loading(),
+      '/home': (context) => Home(),
+      '/location': (context) => Location(),
+    },
   ));
 }
