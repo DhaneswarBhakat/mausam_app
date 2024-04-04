@@ -16,6 +16,7 @@ class _LoadingState extends State<Loading> {
     await instance.getData();
     setState(() {
       Temperature = instance.temp;
+
     });
   }
 

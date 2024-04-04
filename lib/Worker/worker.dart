@@ -43,11 +43,11 @@ class worker {
       description = getDesc;
       main = getMain_des;
     } catch (e) {
-      temp = "Error Occured!";
-      humidity = "Error Occured!";
-      air_speed = "Error Occured!";
-      description = "Error Occured!";
-      main = "Error Occured!";
+      temp = "Can't find Data!";
+      humidity = "Can't find Data!";
+      air_speed = "Can't find Data!";
+      description = "Can't find Data!";
+      main = "Can't find Data!";
     }
   }
 }
